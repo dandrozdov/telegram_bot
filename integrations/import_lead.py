@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: cp1251 -*-
 import requests
 import json
 import sqlite3

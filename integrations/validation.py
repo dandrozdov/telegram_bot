@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: cp1251 -*-
 def check_symbol_for_email(message):
     """�������� �� ������� ������� "@" """
     test_symbol = message.find('@') != -1
