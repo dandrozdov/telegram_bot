@@ -1,4 +1,3 @@
-# -*- coding: cp1251 -*-
 def check_symbol_for_email(message):
     """Проверка на наличие символа "@" """
     test_symbol = message.find('@') != -1

@@ -1,4 +1,3 @@
-# -*- coding: cp1251 -*-
 from telebot import types  # Импорт кнопок
 
 # Кнопки для выбора сферы

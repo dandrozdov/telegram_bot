@@ -184,8 +184,7 @@ def final(message):
 @bot.message_handler(commands=['mailing'])
 def mailing(message):
     """Команда для сотрудников "Флавита". Скрипт отвечает за рассылку сообщений всем пользователям из БД"""
-    if message.from_user.username == 'dandrozdov2129' or message.from_user.username == 'username Нины' \
-            or message.from_user.username == 'username Миланы' or message.from_user.username == 'username Саши':
+    if message.from_user.username == 'USERNAME': # Вставить данные пользователя(ей), кому будет доступна функция
         bot.send_message(message.from_user.id, 'В рассылке будет фотография?')
         bot.register_next_step_handler(message, response_handler)
     else:
